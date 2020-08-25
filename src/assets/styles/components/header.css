@@ -50,7 +50,7 @@
      .menu ol li a:hover{
   
        color: green;
-       text-decoration-line: underline;
+       border-bottom: 4px solid black;
      }
      .menu ol li button{
         text-transform: uppercase;
