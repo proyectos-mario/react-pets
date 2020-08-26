@@ -159,3 +159,23 @@
      padding-top:1em;
     
  }
+
+ @media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    
+   .dataInputLeft{
+    display: none;
+   }
+      
+}
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+

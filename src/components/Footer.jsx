@@ -23,12 +23,13 @@ const Footer = () => {
                 <a href="#" alt="">
                   {"Terms & coditions"}
                 </a>
-                <a href="#" alt="">
-                  Provacy policy
+                <a id="privacyItem" href="#" alt="">
+                  Privacy policy
                 </a>
                 <a href="#" alt="">
                   FAQS
                 </a>
+                
               </div>
             </li>
             <li>
@@ -47,6 +48,10 @@ const Footer = () => {
                 <img src={instagram}></img>
                 <img src={facebook}></img>
                 <img src={twitter}></img>
+                <div className="envelope">
+                <i class="fas fa-envelope"></i>
+                </div>
+              
               </div>
             </li>
           </ol>
@@ -57,3 +62,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

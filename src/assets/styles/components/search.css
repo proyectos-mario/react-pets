@@ -59,3 +59,20 @@ margin: 0;
     height: 0.8em;
     margin:0.2em;
 }
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    
+   
+      
+}
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+

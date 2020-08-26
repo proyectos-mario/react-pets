@@ -3,6 +3,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .search-by-breed select {
@@ -24,11 +25,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 5em;
+
 
 }
 .check-search {
-  margin-left: 13em;
+  margin-left: 9vw;
 }
 
 .check-search label {
@@ -40,8 +41,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 2em;
+  margin-bottom: 1em;
   cursor: pointer;
   font-size: 1em;
   -webkit-user-select: none;
@@ -94,13 +95,37 @@
 
 /* Style the checkmark/indicator */
 .check-container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
+  left: 2em;
+  top: 1em;
+  width: 1em;
+  height: 2em;
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+@media screen and (max-width: 1024px) {
+  .check-search {
+    margin-left: 9vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    
+  .check-search {
+    margin-left: 3vw;
+  }
+      
+}
+@media screen and (max-width: 480px) {
+  .check-search {
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+

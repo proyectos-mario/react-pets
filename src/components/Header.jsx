@@ -1,17 +1,26 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import logoPet from '../assets/images/header-logo.png'
 import '../assets/styles/components/Header.css'
 import country1 from '../assets/images/country1.svg'
 import user from '../assets/images/user.svg'
+import {execMenu} from './menuactions.js'
 
 const Header = () => {
-  return (
+  
+  useEffect(()=>{
+    execMenu();
+},[])
+  return (<>
+ 
+
     <header className="header">
       <div className="container">
+        
+    <i class="fas fa-bars burger-button" id="burger-menu"></i>
         <div className="imgContainer">
-          <div className="logo-image">
+        
            <img src={logoPet}></img>
-          </div>
+  
         </div>
         <nav className="menu">
           <ol>
@@ -39,8 +48,10 @@ const Header = () => {
           
           </ol>
         </nav>
+        <button class="btn-ini"><i  src={user}></i> </button>
       </div>
     </header>
+    </>
   );
 };
 

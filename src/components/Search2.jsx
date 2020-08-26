@@ -4,7 +4,7 @@ import staricon from "../assets/images/star.svg";
 
 const Search2 = () => {
   return (
-    <>
+  
       <section className="search2">
         <div className="container">
           <div className="search-by-breed">
@@ -46,7 +46,7 @@ const Search2 = () => {
          
         </div>
       </section>
-    </>
+
   );
 };
 

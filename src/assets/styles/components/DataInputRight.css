@@ -99,6 +99,12 @@ color: #8FB946;
     flex-direction: column;
     margin-left: 1em;
 }
+
+.row-pet-sold-right-detail label strong,.row-pet-sold-left-detail label strong{
+    color: #8FB946;
+    margin-left: 0.1em;
+}
+
 .row-pet-sold-left-detail{
     display:flex;
     flex-direction: column;
@@ -121,5 +127,35 @@ font-family: 'Poppins', sans-serif;
 font-weight: black;
 width: 100%;
 }
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .dataInputRight {
+        display: block;
+        width: 100%;
+    }
+    .pedCard{
+        width: 100%;
+    }
+
+    .row-pet-image img{
+        border-radius: 0.5em;
+        height: 100%;
+        width: 100%;
+        }
+      
+}
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+
 
 
