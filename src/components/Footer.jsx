@@ -29,29 +29,25 @@ const Footer = () => {
                 <a href="#" alt="">
                   FAQS
                 </a>
-                
               </div>
             </li>
             <li>
               <div className="menu-footer-text-container2">
-                <label >
-                  Questions?
-                </label>
+                <label>Questions?</label>
                 <a href="#" alt="">
                   SUPPORT@CARMAZAD.COM
                 </a>
               </div>
             </li>
-           
+
             <li>
               <div className="social-container">
                 <img src={instagram}></img>
                 <img src={facebook}></img>
                 <img src={twitter}></img>
                 <div className="envelope">
-                <i class="fas fa-envelope"></i>
+                  <i className="fas fa-envelope"></i>
                 </div>
-              
               </div>
             </li>
           </ol>
@@ -62,4 +58,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

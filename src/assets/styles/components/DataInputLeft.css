@@ -1,181 +1,163 @@
-.dataInputLeft{
-    max-width: 15vw;
-    padding-top:2em;
-    padding-bottom: 2em;
-  
-    
+.dataInputLeft {
+  min-width: 20%;
+  max-width: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
-.menu-options{
-    background-color:white;
-    width: 100%;
-    padding-bottom: 2em;
-    border-radius: 0.5em;
+.menu-options {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 2em;
+  border-radius: 0.5em;
 }
-.menu-options ol{
-    list-style:none;
-    margin:0;
-    padding: 0;
- }
- .menu-option-container{
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    width: 70%;
-    margin-left: 2em;
-    margin-right: 2em;
- }
- .menu-option-container select {
-    border:0;
-    outline: 0px;
-    font-family: "Poppins", sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 1em 0 0.5em 0;
-  }
-  .menu-option-container-two{
-    width: 70%;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-
-  .menu-option-container-two select{
-    border:0;
-    outline: 0px;
-    font-family: "Poppins", sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 1em 1em 0.5em 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-  }
-
-  .text-container{
-
-      display: flex;
-      font-family: "Poppins", sans-serif;
-      font-size: 1em;
-      font-weight: bold;
-      justify-content: space-between;
-      border-bottom: 1px solid rgba(0,0,0,0.1);
-      margin-left: 2em;
-      margin-right: 2em;
-      margin-top:1em;
-  }
-  .text-container-budget{
-    
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    flex-wrap: nowrap;
-    font-size: 1em;
-    font-weight: bold;
-
-    margin-top:1em;
-    border-bottom: 2px solid;
+.menu-options ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu-option-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.menu-option-container select {
+  border: 0;
+  outline: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 0 0.5em 0;
+}
+.menu-option-container-two {
+  width: 70%;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
+.menu-option-container-two select {
+  border: 0;
+  outline: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 1em 0.5em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
-  
-  .text-container label{
-      width: 100%;
-  }
-  .text-container input{
+.text-container {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+.text-container-budget {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: nowrap;
+  font-size: 1em;
+  font-weight: bold;
 
-      border:none;
-      width: 100%;
-  }
+  margin-top: 1em;
+  border-bottom: 2px solid;
+}
 
-  .text-container-budget-two{
-      display: flex;
-      justify-content: space-between;
- 
-  }
-  .budget-container{
-      padding-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    font-weight: bold;
-   
-  }
+.text-container label {
+  width: 100%;
+}
+.text-container input {
+  border: none;
+  width: 100%;
+}
 
+.text-container-budget-two {
+  display: flex;
+  justify-content: space-between;
+}
+.budget-container {
+  padding-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-weight: bold;
+}
 
-  .slider {
-      position: sticky;
-    -webkit-appearance: none;
-    width: 100%;
-    height: 10px;
-    background: transparent;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+.slider {
+  position: sticky;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: transparent;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
 
-  }
-  
-  .slider:hover {
-    opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    background: transparent;
-    cursor: pointer;
-    border-radius: 50%;
-    border:2px solid black;
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #4CAF50;
-    cursor: pointer;
-  }
+.slider:hover {
+  opacity: 1;
+}
 
-  .btnsearch{
-    text-transform: uppercase;
-    background: white url('../../images/search.svg') no-repeat center left;
-    color:white;
-    padding:1em 1em 1em 1em;
-    border-radius: 1em;
-    margin: 0em 0em 0em 0em;
-    background-image: linear-gradient(to right, #6b1d57, #33176c);
-    border:none;
-    width: 100%;
-    font-size: 0.7em;
-    text-align: left; 
-    font-family: 'Poppins', sans-serif;
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid black;
+}
 
- }
- .btnsearch i{
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.btnsearch {
+  text-transform: uppercase;
+  background: white url("../../images/search.svg") no-repeat center left;
+  color: white;
+  padding: 1em 1em 1em 1em;
+  border-radius: 1em;
+  margin: 0em 0em 0em 0em;
+  background-image: linear-gradient(to right, #6b1d57, #33176c);
+  border: none;
+  width: 100%;
+  font-size: 0.7em;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+.btnsearch i {
   margin-right: 4em;
- }
- .buttonsearch-container{
-     margin-top:2em;
-    width: 70%;
-    margin-right:2em;
-    margin-left: 2em;
- }
- .resetContainer{
-     text-align: center;
-     padding-top:1em;
-    
- }
+}
+.buttonsearch-container {
+  margin-top: 2em;
+  width: 70%;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.resetContainer {
+  text-align: center;
+  padding-top: 1em;
+}
 
- @media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 767px) {
-    
-   .dataInputLeft{
+  .dataInputLeft {
     display: none;
-   }
-      
+  }
 }
 @media screen and (max-width: 480px) {
-
 }
 
 @media screen and (max-width: 320px) {
-
 }
-

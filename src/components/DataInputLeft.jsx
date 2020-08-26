@@ -10,9 +10,7 @@ const DataInputLeft = () => {
             <li>
               <div className="menu-option-container">
                 <select>
-                  <option value="" selected disabled hidden>
-                    Size
-                  </option>
+                  <option defaultValue>Size</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -23,9 +21,7 @@ const DataInputLeft = () => {
             <li>
               <div className="menu-option-container">
                 <select>
-                  <option value="" selected disabled hidden>
-                    Age
-                  </option>
+                  <option defaultValue>Age</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -36,9 +32,7 @@ const DataInputLeft = () => {
             <li>
               <div className="menu-option-container">
                 <select>
-                  <option value="" selected disabled hidden>
-                    City
-                  </option>
+                  <option defaultValue>City</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -50,18 +44,14 @@ const DataInputLeft = () => {
             <li>
               <div className="menu-option-container-two">
                 <select>
-                  <option value="" selected disabled hidden>
-                    From
-                  </option>
+                  <option defaultValue>From</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
                 </select>
                 <select>
-                  <option value="" selected disabled hidden>
-                    To
-                  </option>
+                  <option defaultValue>To</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -106,20 +96,23 @@ const DataInputLeft = () => {
                       $10.000+
                     </label>
                   </div>
-
                 </div>
               </div>
             </li>
 
             <li>
               <div className="buttonsearch-container">
-              <button className="btnsearch"><i class="fas fa-search"></i> Search</button>
+                <button className="btnsearch">
+                  <i className="fas fa-search"></i> Search
+                </button>
               </div>
             </li>
 
             <li>
               <div className="resetContainer">
-              <a href="#" alt="">Reset</a>
+                <a href="#" alt="">
+                  Reset
+                </a>
               </div>
             </li>
           </ol>

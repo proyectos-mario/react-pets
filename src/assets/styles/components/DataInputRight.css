@@ -1,161 +1,150 @@
-.dataInputRight{
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-
+.dataInputRight {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.pedCard{
-    background-color:white;
-    padding: 1em;
-    width: 20vw;
-    border-radius: 0.5em;
-    margin: 1em 0 1em 0;
+.pedCard {
+  background-color: white;
+  padding: 1em;
+  width: 20vw;
+  border-radius: 0.5em;
+  margin: 1em 0 1em 0;
 }
-.row-pet-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.row-pet-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.row-pet-image label{
-    background-image: linear-gradient(to right, #E73054, #B94646);
-    color:white;
-    padding: 0.5em;
-    margin-bottom: 0.5em;
-    border-radius: 0.5em;
+.row-pet-image label {
+  background-image: linear-gradient(to right, #e73054, #b94646);
+  color: white;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
 }
-.row-pet-image img{
-border-radius: 0.5em;
-height: 20vw;
-width: 20vw;
+.row-pet-image img {
+  border-radius: 0.5em;
+  height: 20vw;
+  width: 20vw;
 }
-.row-pet-name{
-    padding: 1em 0em 1em 0em;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+.row-pet-name {
+  padding: 1em 0em 1em 0em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.row-pet-views{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1em 0em 1em 0em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+.row-pet-views {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 0em 1em 0em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.row-pet-views i{
-margin-right: 1em;
-color: #8FB946;
-
+.row-pet-views i {
+  margin-right: 1em;
+  color: #8fb946;
 }
 
-.row-pet-location{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding:1em 0 1em 0;
+.row-pet-location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1em 0 1em 0;
 }
-.row-pet-location-detail{
-    display:flex;
-    flex-direction: column;
-    margin-left: 1em;
+.row-pet-location-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
 }
-.row-pet-location i{
-    color: #8FB946;
-}
-
-.row-pet-sold{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.row-pet-sold-right{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    padding:1em 0 1em 0;
-}
-.row-pet-sold-right i{
-    color: #8FB946;
-}
-.row-pet-sold-left i{
-    color: #8FB946;
-}
-.row-pet-sold-left{
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
- 
-    padding:1em 0 1em 0;
-}
-.row-pet-sold-right-detail{
-    display:flex;
-    flex-direction: column;
-    margin-left: 1em;
+.row-pet-location i {
+  color: #8fb946;
 }
 
-.row-pet-sold-right-detail label strong,.row-pet-sold-left-detail label strong{
-    color: #8FB946;
-    margin-left: 0.1em;
+.row-pet-sold {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.row-pet-sold-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 1em 0 1em 0;
+}
+.row-pet-sold-right i {
+  color: #8fb946;
+}
+.row-pet-sold-left i {
+  color: #8fb946;
+}
+.row-pet-sold-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 1em 0 1em 0;
+}
+.row-pet-sold-right-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
 }
 
-.row-pet-sold-left-detail{
-    display:flex;
-    flex-direction: column;
-    margin-left: 1em;
+.row-pet-sold-right-detail label strong,
+.row-pet-sold-left-detail label strong {
+  color: #8fb946;
+  margin-left: 0.1em;
 }
-.row-pet-bids{
-    display: flex;
-    justify-content: center;
-    padding-top:1em;
-    width: 100%;
+
+.row-pet-sold-left-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
 }
-.row-pet-bids button{
-border:none;
-padding: 0.5em;
-text-align: center;
-background-image: linear-gradient(to right, #8FB946, #74B946);
-border-radius: 0.5em;
-color:white;
-font-family: 'Poppins', sans-serif;
-font-weight: black;
-width: 100%;
+.row-pet-bids {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  width: 100%;
+}
+.row-pet-bids button {
+  border: none;
+  padding: 0.5em;
+  text-align: center;
+  background-image: linear-gradient(to right, #8fb946, #74b946);
+  border-radius: 0.5em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: black;
+  width: 100%;
 }
 @media screen and (max-width: 1024px) {
-
 }
 
 @media screen and (max-width: 767px) {
-    
-    .dataInputRight {
-        display: block;
-        width: 100%;
-    }
-    .pedCard{
-        width: 100%;
-    }
+  .dataInputRight {
+    display: block;
+    width: 100%;
+  }
+  .pedCard {
+    width: 100%;
+  }
 
-    .row-pet-image img{
-        border-radius: 0.5em;
-        height: 100%;
-        width: 100%;
-        }
-      
+  .row-pet-image img {
+    border-radius: 0.5em;
+    height: 100%;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
-
 }
 
 @media screen and (max-width: 320px) {
-
 }
-
-
-
-

@@ -1,11 +1,11 @@
-export const execMenu=() => {
-    const menu = document.querySelector('.menu');    
+export const execMenu = () => {
+    const menu = document.querySelector('.menu');
     const body = document.querySelector('body');
     const burgerMenu = document.querySelector('#burger-menu');
 
 
-    const closeMenu=()=>{
-        if(menu.classList.contains('is-active')){
+    const closeMenu = () => {
+        if (menu.classList.contains('is-active')) {
             menu.classList.remove('is-active');
         }
     }
@@ -26,27 +26,27 @@ export const execMenu=() => {
     const ipad = window.matchMedia('screen and (max-width: 767px)');
 
     const desktop = window.matchMedia('screen and (min-width: 768px)')
-        
-       
-    
-        const hideShow = () => {
-            
-                body.addEventListener('click',()=>{});
-            
-           
-            if (menu.classList.contains('is-active')) {
-                menu.classList.remove('is-active');
 
-            }
-            else {
-                menu.classList.add('is-active');
-                body.addEventListener('click',closeMenu,true);
-            }
+
+
+    const hideShow = () => {
+
+        body.addEventListener('click', () => { });
+
+
+        if (menu.classList.contains('is-active')) {
+            menu.classList.remove('is-active');
 
         }
+        else {
+            menu.classList.add('is-active');
+            body.addEventListener('click', closeMenu, true);
+        }
 
-        
-    
+    }
+
+
+
     const validation = (event) => {
         if (event.matches) {
             burgerMenu.addEventListener(
@@ -54,12 +54,12 @@ export const execMenu=() => {
                 hideShow
             );
         }
-        else{
-            burgerMenu.removeEventListener('click',hideShow);
+        else {
+            burgerMenu.removeEventListener('click', hideShow);
         }
     }
 
-   
+
 
     ipad.addListener(validation);
     validation(ipad);

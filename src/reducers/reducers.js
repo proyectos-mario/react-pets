@@ -1,49 +1,23 @@
-const reducers=(state,action)=>{
-    const newObject=action.payload;
-   switch(action.type){
-       case 'CHANGE_CREDIT_VALS': 
+const reducers = (state, action) => {
+    const newObject = action.payload;
+    switch (action.type) {
+        case 'SET_PETS':
 
-       return {...state,
-        jCreditForm: newObject
-       }
+            return {
+                ...state,
+                pets: newObject
+            }
 
-       case 'ADD_CREDIT_ADDS_VALS': 
-       return {...state,
-        jAddValues: newObject
-       }
+        case 'SET_VAL_INPUT':
 
-       case 'CALC_VALS': 
-   
-       return {...state,
-        result: newObject
-       }
-       case 'SET_VISIBLE': 
-   
-       return {...state,
-        visible: newObject
-       }
+            return {
+                ...state,
+                searchInput: newObject
+            }
 
-       case 'SET_RATE_TYPE': 
-   
-       return {...state,
-        params: {
-            ...state.params,
-            rateType:newObject
-        }
-       }
-       case 'SET_WITH_INI': 
-   
-       return {...state,
-        params: {
-            ...state.params,
-            withAccInit:newObject
-        }
-       }
 
-       
-       
-       default: return state;
-   }
+        default: return state;
+    }
 }
 
 
