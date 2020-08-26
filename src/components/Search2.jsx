@@ -23,7 +23,7 @@ const Search2 = () => {
             <img src={staricon} alt="" />
             <label >Show favorites</label>
           </div>
-          <div className="check-search without-margin-left">
+          <div className="check-search ">
           <label class="check-container">Puppies
             <input type="checkbox" />
              <span class="checkmark"></span>
